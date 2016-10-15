@@ -1,14 +1,14 @@
 # Site
-title:              Fatih Zor
-bio:                'Cyber Security | C# | Ruby'
-description:        "KTO KARATAY UNIVERSITY COMPUTER ENGINEERING"
+title:               Kayode Hadilou ADJE
+bio:                'MVC .NET | C# | NODE.js Bots '
+description:        "GAZI  UNIVERSITY COMPUTER ENGINEERING"
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/logo.png'
 background:         'assets/img/placeholder-big.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
-url:                http://fatihzor.com.tr
+url:                http://weareyabanci.com
 
 # Jekyll
 permalink:          /:title/
@@ -26,7 +26,7 @@ sass:
   style:            compressed
 
 # Comments
-disqus_shortname:   taylantatli
+#disqus_shortname:   taylantatli
 
 # Social
 # if you don't have any of social below, comment the line.
@@ -37,14 +37,14 @@ disqus_shortname:   taylantatli
   #ad-client:
   #ad-slot:
 #bing-verify:
-#email:
-twitter:            fatihhzor
-facebook:           fatihhzor
-github:             fatihzor
+email:              kadeyoadje@gmail.com
+twitter:            AHadilou
+facebook:           hadilou.adje
+github:             hadilou
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
-linkedin:          fatihhzor
+linkedin:          kayode-hadilou-adje
 #xing:              username
-#instagram:          username
+instagram:          kayode_hadilou
 #lastfm:            username
 #tumblr:            username
 #pinterest:         username
