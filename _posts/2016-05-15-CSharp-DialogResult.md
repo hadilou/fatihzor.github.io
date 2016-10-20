@@ -10,10 +10,10 @@ tag:
 comments: false
 ---
 
-[DialogResult MSDN Microsoft](https://msdn.microsoft.com/tr-tr/library/system.windows.forms.dialogresult(v=vs.110).aspx)
 
 
-## Kullanımı Summer School
+
+## Microsoft Summer School
 
 ### Istanbul/Turkey 2016
 
@@ -28,7 +28,6 @@ comments: false
                     (cloud system like Microsoft Azure, Xamarin Cross platform development, UI and UX, Debugging and Testing, 
                     Web and Mobile development and Architecture, IoT, 3D, Open Source development, C#, UWP and SQL, Unity, 
                     Big Data, Azure Machine Learning, Office 365….).
-
                     And besides those technical backgrounds participants also receive some basic information about business,
                      marketing and branding, starting-up, thinking like an entrepreneur, how to manage both technical and business 
                     part of a start-up…
@@ -37,8 +36,6 @@ comments: false
                     the morning technical classes start…You gonna ask if those guys don’t even rest??Calm down!!they are human not 
                     machine. After every 45 minutes a break of 10-15 minutes is given and from 12-45-13h45 the launch offered by
                     Microsoft itself...(Another occasion to explore Turkish cuisine if you are like me)..So what’s next????
-
-                    Just keep following!!I am taking you to the universe of Microsoft itself..And you can also follow us using
-                    #aayazokulu or <a href="http://www.acikakademi.com/canliyayin/yayin.aspx">Watch the live on AcikAkademi</a>.
+                    
 
 
