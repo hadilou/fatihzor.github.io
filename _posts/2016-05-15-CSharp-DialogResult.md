@@ -1,12 +1,17 @@
 ---
 layout: post
-title:  "CSharp DialogResult"
-date:   2016-05-15
-excerpt: "Programımız çalışmaya başlarken kullanıcı girişini sağlamak amacı ile DialogResult yapıyoruz"
+title:  "Microsoft Summer School 2016"
+date:   2016-08
+excerpt: "  Have you ever heard about Microsoft Turkey Summer School?
+                    No or Yes I have heard but I don’t know a lot about it!....You are at the right place for that.."
 tag:
-- CSharp 
-- DialogResult
-- User Password
+- Microsoft summer school
+- AAyazokulu
+- Açık Akademi Yaz Okulu
+-Microsoft Turkey
+-Startups
+-Entrepreneurships
+-Technologies
 comments: false
 ---
 
@@ -17,8 +22,7 @@ comments: false
 
 ### Istanbul/Turkey 2016
 
-   Have you ever heard about Microsoft Turkey Summer School?
-                    No or Yes I have heard but I don’t know a lot about it!....You are at the right place for that..
+ 
                     So what is Microsoft Summer school? You will probably say a summer school organized by Microsoft 
                      Turkey!!But keep calm that is not the right definition for that. More than a simple summer school,
                      it can replace your internship, it builds bridges between students and public figures such as CEOs,
