@@ -1,6 +1,6 @@
 # Site
 title:               Kayode Hadilou ADJE
-bio:                'MVC .NET | C# | NODE.js Bots '
+bio:                'MVC |.NET | C# | NODE.js| Bots UX'
 description:        "GAZI  UNIVERSITY COMPUTER ENGINEERING"
 reading_time:       true
 words_per_minute:   200
@@ -25,7 +25,7 @@ sass:
   sass_dir:         _sass
   style:            compressed
 
-# Comments
+#Comments
 #disqus_shortname:   taylantatli
 
 # Social
@@ -42,7 +42,7 @@ twitter:            AHadilou
 facebook:           hadilou.adje
 github:             hadilou
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
-linkedin:          kayode-hadilou-adje
+#linkedin:          kayode-hadilou-adje
 #xing:              username
 instagram:          kayode_hadilou
 #lastfm:            username
