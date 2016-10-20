@@ -13,78 +13,32 @@ comments: false
 [DialogResult MSDN Microsoft](https://msdn.microsoft.com/tr-tr/library/system.windows.forms.dialogresult(v=vs.110).aspx)
 
 
-## Kullanımı
+## Kullanımı Summer School
 
-### Method
+### Istanbul/Turkey 2016
 
-{% highlight c# %}
-private static DialogResult ShowInputDialog(ref string username, ref string password)
-        {
-            System.Drawing.Size size = new System.Drawing.Size(200, 90); //Formumuzun Boyutu
-            Form inputBox = new Form();
+   Have you ever heard about Microsoft Turkey Summer School?
+                    No or Yes I have heard but I don’t know a lot about it!....You are at the right place for that..
+                    So what is Microsoft Summer school? You will probably say a summer school organized by Microsoft 
+                     Turkey!!But keep calm that is not the right definition for that. More than a simple summer school,
+                     it can replace your internship, it builds bridges between students and public figures such as CEOs,
+                    journalists, start-uppers, entrepreneurs and even people Microsoft technical partners. Great right..?
+                      The aim of that one month of intensive “course” is to explain how fast the technology is growing, what is
+                     the world waiting from young people, how to solve problems using technologies, some technical tasks 
+                    (cloud system like Microsoft Azure, Xamarin Cross platform development, UI and UX, Debugging and Testing, 
+                    Web and Mobile development and Architecture, IoT, 3D, Open Source development, C#, UWP and SQL, Unity, 
+                    Big Data, Azure Machine Learning, Office 365….).
 
-            inputBox.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-            inputBox.ClientSize = size;
-            inputBox.Text = "Name";
+                    And besides those technical backgrounds participants also receive some basic information about business,
+                     marketing and branding, starting-up, thinking like an entrepreneur, how to manage both technical and business 
+                    part of a start-up…
+                     Every day of that wonderful month starts with a speech of an inspirer who can be either a CEO, or a start-upper
+                     or a journalist or even a public speaker…….at 09AM(GMT+03). The day also ends as it starts. After the speech in 
+                    the morning technical classes start…You gonna ask if those guys don’t even rest??Calm down!!they are human not 
+                    machine. After every 45 minutes a break of 10-15 minutes is given and from 12-45-13h45 the launch offered by
+                    Microsoft itself...(Another occasion to explore Turkish cuisine if you are like me)..So what’s next????
 
-            System.Windows.Forms.TextBox usernameBox = new TextBox(); // Username için TextBox
-            usernameBox.Size = new System.Drawing.Size(size.Width - 10, 23); // usernameBox kutusunun boyutunu ayarlar
-            usernameBox.Location = new System.Drawing.Point(5, 5); // usernameBox kutusunun yerini ayarlar
-            usernameBox.Text = username; // Gönderilen username parametresi usernameBox objesinin içerisinde görülecektir.
-            inputBox.Controls.Add(usernameBox);
+                    Just keep following!!I am taking you to the universe of Microsoft itself..And you can also follow us using
+                    #aayazokulu or <a href="http://www.acikakademi.com/canliyayin/yayin.aspx">Watch the live on AcikAkademi</a>.
 
-            System.Windows.Forms.TextBox passwordBox = new TextBox();
-            passwordBox.Size = new System.Drawing.Size(size.Width - 10, 23);
-            passwordBox.Location = new System.Drawing.Point(5, 28);
-            passwordBox.Text = password; // Gönderilen password parametresi passwordBox objesinin içerisinde görülecektir.
-            inputBox.Controls.Add(passwordBox);
 
-            Button okButton = new Button();
-            okButton.DialogResult = System.Windows.Forms.DialogResult.OK;
-            okButton.Name = "okButton";
-            okButton.Size = new System.Drawing.Size(75, 23);
-            okButton.Text = "&OK";
-            okButton.Location = new System.Drawing.Point(size.Width - 80 - 80, 54);
-            inputBox.Controls.Add(okButton);
-
-            Button cancelButton = new Button();
-            cancelButton.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            cancelButton.Name = "cancelButton";
-            cancelButton.Size = new System.Drawing.Size(75, 23);
-            cancelButton.Text = "&Cancel";
-            cancelButton.Location = new System.Drawing.Point(size.Width - 80, 54);
-            inputBox.Controls.Add(cancelButton);
-
-            inputBox.AcceptButton = okButton; //Enter tuşuna basıldığında algılar ve okButton butonu işler.
-            inputBox.CancelButton = cancelButton; //ESC tuşuna basıldığında algılar ve cancelButton butonu işler.
-
-            DialogResult result = inputBox.ShowDialog();
-            username = usernameBox.Text;
-            password = passwordBox.Text;
-            if (username == "fatih" && password == "zor")
-            {
-                result = DialogResult.OK;
-            }
-            else
-                result = DialogResult.Cancel;
-            return result;
-        }
-{% endhighlight %}
-
-### Form Load Bölümü
-
-Eğer programımız çalışırken öncelikle bu dialog kutusunu göstermek istiyorsak **Form1_Load** fonksiyonunun ilk satırlarına aşağıdaki kodları belirtmeliyiz.
-
-Form1_Load bölümünde Form1 benim açmış olduğum Form'un ismidir.
-{: .notice}
-
-{% highlight c# %}
-string username = "Username", password = "Password";
-
-            if (ShowInputDialog(ref username, ref password) == DialogResult.OK)
-            {
-                MessageBox.Show("Ok");
-            }
-            else
-                MessageBox.Show("Cancel");
-{% endhighlight %}
